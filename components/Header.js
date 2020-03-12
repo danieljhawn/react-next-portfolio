@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
-const linkStyle = {
-    marginRight: 15
-};
+// const linkStyle = {
+//     marginRight: 15
+// };
 
 const Header = () => (
     <div>
