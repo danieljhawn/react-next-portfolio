@@ -14,34 +14,32 @@ function Portfolio() {
             <div className="row">
                 <div className="col-md-6 col-sm-12 col-xs-12 mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
                     <h2>
-                        <p className="subhead">About Me</p>
+                        <p className="subhead">Projects</p>
                     </h2>
                     <div className="container-fluid">
                         <div className="row">
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-xs-8 ">
-                                <img className="img-fluid" src="../oct12homework/assets/images/selfp.jpg" alt="pretentious self-portrait" />
+
+                            <div className="col">
+                                <div className="row">
+                                    <div className="col p-0 position-relative bg-dark m-2 shadow">
+                                        <a href="https://danieljhawn.github.io/dayPlanner/">
+                                            <img src="../bootstrap/assets/images/dayPlannerThumb.jpg"
+                                                className="img-responsive w-100" alt="..." /></a>
+                                            <h5 className="h-30 m-3  text-white">Day Planner</h5>
                             </div>
-                            <div class="col">
-                                <p class="bodyText">PORTFOLIO LIPSUM</p>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-12 col-xs-12 mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
-                    <h3>
-                        Links
-              </h3>
-                    <h4><a href="https://github.com/danieljhawn">My Github Profile</a></h4>
-                </div>
+
+            <div class="fixed-bottom bg-dark text-white text-center pt-6">
+                <p class="pt-6">copyright &copy; 2020 Daniel Hawn</p>
             </div>
-        </div>
-
-        <div class="fixed-bottom bg-dark text-white text-center pt-6">
-            <p class="pt-6">copyright &copy; 2020 Daniel Hawn</p>
-        </div>
     </Layout>
-}
-
+        }
+        
 export default Portfolio
