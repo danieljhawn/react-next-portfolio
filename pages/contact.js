@@ -15,7 +15,6 @@ function contact() {
                 <h2>
                     <p className="subhead">Contact</p>
                 </h2>
-
             </div>
         </div>
     </div>

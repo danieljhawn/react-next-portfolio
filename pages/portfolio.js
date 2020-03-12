@@ -2,6 +2,16 @@ import React from 'react'
 import Head from 'next/head'
 import Layout from '../components/MyLayout'
 
+const linkStyle = {
+    fontFamily: 'Arial, Helvetica, sans-serif',
+    // fontSize: '30px',
+    letterSpacing:  '7px',
+    wordSpacing: '2px',
+    color: '#FFFFFF',
+    textDecoration: 'none',
+    fontStyle: 'normal',
+    textTransform: 'uppercase',
+}
 
 function Portfolio() {
     return <Layout>
@@ -12,9 +22,9 @@ function Portfolio() {
         </Head>
         <div className="container-fluid">
             <div className="row">
-                <div className="col-md-6 col-sm-12 col-xs-12 mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
+                <div className=" mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
                     <h2>
-                        <p className="subhead">Projects</p>
+                        <p style={linkStyle} className="subhead">Projects</p>
                     </h2>
                     <div className="container-fluid">
                         <div className="row">
@@ -23,11 +33,19 @@ function Portfolio() {
                                 <div className="row">
                                     <div className="col p-0 position-relative bg-dark m-2 shadow">
                                         <a href="https://danieljhawn.github.io/dayPlanner/">
-                                            <img src="../bootstrap/assets/images/dayPlannerThumb.jpg"
+                                            <img src="./dayPlannerThumb.jpg"
                                                 className="img-responsive w-100" alt="..." /></a>
-                                            <h5 className="h-30 m-3  text-white">Day Planner</h5>
+                                        <h5 style={linkStyle} className="h-30 m-3  text-white">Day Planner</h5>
+                                    </div>
+                                </div>
                             </div>
-
+                            <div className="col">
+                                <div className="row">
+                                    <div className="col p-0 position-relative bg-dark m-2 shadow">
+                                        <a href="https://danieljhawn.github.io/dayPlanner/">
+                                            <img src="./weatherApp.jpg"
+                                                className="img-responsive w-100" alt="..." /></a>
+                                        <h5 style={linkStyle} className="h-30 m-3  text-white">Weather App</h5>
                                     </div>
                                 </div>
                             </div>
@@ -35,11 +53,12 @@ function Portfolio() {
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="fixed-bottom bg-dark text-white text-center pt-6">
-                <p class="pt-6">copyright &copy; 2020 Daniel Hawn</p>
-            </div>
+        <div class="fixed-bottom bg-dark text-white text-center pt-6">
+            <p class="pt-6">copyright &copy; 2020 Daniel Hawn</p>
+        </div>
     </Layout>
-        }
-        
+}
+
 export default Portfolio
