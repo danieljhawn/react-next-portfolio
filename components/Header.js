@@ -12,7 +12,7 @@ const Header = () => (
     <Link href="/about">
       <a style={linkStyle}>About</a>
     </Link> */}
-        <div className="navbar-expand navbar-dark bg-dark text-white">
+        <div className="navbar-expand navbar-dark bg-dark text-white p-3">
             <div className="container col-6 align-items-center">
                 <div className="row align-items-center">
                     <div className="col align-items-center">
