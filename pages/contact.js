@@ -27,18 +27,6 @@ function contact() {
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12 mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
-                <h3>
-                    Links
-          </h3>
-                <h4><a href="https://github.com/danieljhawn">My Github Profile</a></h4>
-            </div>
-        </div>
-    </div>
-
-    <div class="fixed-bottom bg-dark text-white text-center pt-6">
-        <p class="pt-6">copyright &copy; 2020 Daniel Hawn</p>
     </div>
 </Layout>
 }

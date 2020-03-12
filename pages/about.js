@@ -35,7 +35,7 @@ function About() {
                     <h3>
                         Links
               </h3>
-                    <h4><a href="https://github.com/danieljhawn">My Github Profile</a></h4>
+                    <h4><a  href="https://github.com/danieljhawn">My Github Profile</a></h4>
                 </div>
             </div>
         </div>
