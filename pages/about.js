@@ -19,7 +19,7 @@ function About() {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-4 col-md-6 col-sm-6 col-xs-8 ">
-                                <img className="img-fluid" src="../oct12homework/assets/images/selfp.jpg" alt="pretentious self-portrait" />
+                                <img className="img-fluid" src="/selfp.jpg" alt="pretentious self-portrait" />
                             </div>
                             <div class="col">
                                 <p class="bodyText">
