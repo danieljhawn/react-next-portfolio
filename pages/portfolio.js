@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Layout from '../components/MyLayout'
 
-const linkStyle = {
+const subheadStyle = {
     fontFamily: 'Arial, Helvetica, sans-serif',
     // fontSize: '30px',
     letterSpacing:  '7px',
@@ -24,7 +24,7 @@ function Portfolio() {
             <div className="row">
                 <div className="col-md-6 col-sm-12 col-xs-12 mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
                     <h2>
-                        <p style={linkStyle} className="subhead">Projects</p>
+                        <p style={subheadStyle} className="subhead">Projects</p>
                     </h2>
                     <div className="container-fluid">
                         <div className="row">
@@ -35,7 +35,7 @@ function Portfolio() {
                                         <a href="https://danieljhawn.github.io/dayPlanner/">
                                             <img src="./dayPlannerThumb.jpg"
                                                 className="img-responsive w-100" alt="..." /></a>
-                                        <h5 style={linkStyle} className="h-30 m-3  text-white">Day Planner</h5>
+                                        <h5 style={subheadStyle} className="h-30 m-3 text-white">Day Planner</h5>
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ function Portfolio() {
                                         <a href="https://danieljhawn.github.io/dayPlanner/">
                                             <img src="./weatherApp.jpg"
                                                 className="img-responsive w-100" alt="..." /></a>
-                                        <h5 style={linkStyle} className="h-30 m-3  text-white">Weather App</h5>
+                                        <h5 style={subheadStyle} className="h-30 m-3 text-white">Weather App</h5>
                                     </div>
                                 </div>
                             </div>

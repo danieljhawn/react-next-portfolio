@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Layout from '../components/MyLayout'
 
-const linkStyle = {
+const subheadStyle = {
     fontFamily: 'Arial, Helvetica, sans-serif',
     // fontSize: '30px',
     letterSpacing:  '7px',
@@ -25,7 +25,7 @@ function contact() {
         <div className="row">
             <div className="col-md-6 col-sm-12 col-xs-12 mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
                 <h2>
-                    <p style={linkStyle} className="subhead">Contact</p>
+                    <p style={subheadStyle} className="subhead">Contact</p>
                 </h2>
             </div>
         </div>

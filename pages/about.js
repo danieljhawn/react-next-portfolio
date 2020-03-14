@@ -2,6 +2,24 @@ import React from 'react'
 import Head from 'next/head'
 import Layout from '../components/MyLayout'
 
+const subheadStyle = {
+    fontFamily: 'Arial, Helvetica, sans-serif',
+    letterSpacing: '7px',
+    wordSpacing: '2px',
+    color: '#FFFFFF',
+    textDecoration: 'none',
+    fontStyle: 'normal',
+    textTransform: 'uppercase',
+}
+
+const linkStyle = {
+    fontFamily: 'Arial, Helvetica, sans-serif',
+    wordSpacing: '2px',
+    color: '#FFFFFF',
+    textDecoration: 'none',
+    fontStyle: 'normal',
+}
+
 
 function About() {
     return <Layout>
@@ -14,7 +32,7 @@ function About() {
             <div className="row">
                 <div className="col-md-6 col-sm-12 col-xs-12 mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
                     <h2>
-                        <p className="subhead">About Me</p>
+                        <p style={subheadStyle} className="subhead">About Me</p>
                     </h2>
                     <div className="container-fluid">
                         <div className="row">
@@ -23,11 +41,11 @@ function About() {
                             </div>
                             <div class="col">
                                 <p class="bodyText">
-                                    In 2019 I moved to Austin and entered the UT Full Stack Coding Bootcamp. 
-                                    My goal is to have a firm understanding of how to use HTML, CSS, and JavaScript. 
-                                    In the process I will be completing several projects demonstrating my abilities in these languages. 
-                                    You can find these projects in the <a href="portfolio.html">Portfolio</a> section of my site.
-                </p>
+                                    In 2019 I moved to Austin and entered the UT Full Stack Coding Bootcamp.
+                                    My goal is to have a firm understanding of how to use HTML, CSS, and JavaScript.
+                                    In the process I will be completing several projects demonstrating my abilities in these languages.
+                                    You can find these projects in the <a style={linkStyle} href="./portfolio.html">Portfolio</a> section of my site.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -35,10 +53,10 @@ function About() {
             </div>
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12 mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
-                    <h3>
+                    <h3 style={subheadStyle}>
                         Links
-              </h3>
-                    <h4><a  href="https://github.com/danieljhawn">My Github Profile</a></h4>
+                    </h3>
+                    <h4><a style={linkStyle} href="https://github.com/danieljhawn">My Github Profile</a></h4>
                 </div>
             </div>
         </div>
