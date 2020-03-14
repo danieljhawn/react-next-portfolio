@@ -1,4 +1,4 @@
-import React from 'react'
+import Link from 'next/link';
 import Head from 'next/head'
 import Layout from '../components/MyLayout'
 
@@ -44,7 +44,7 @@ function About() {
                                     In 2019 I moved to Austin and entered the UT Full Stack Coding Bootcamp.
                                     My goal is to have a firm understanding of how to use HTML, CSS, and JavaScript.
                                     In the process I will be completing several projects demonstrating my abilities in these languages.
-                                    You can find these projects in the <a style={linkStyle} href="./portfolio.html">Portfolio</a> section of my site.
+                                    You can find these projects in the <a style={linkStyle} href="/portfolio">Portfolio</a> section of my site.
                                 </p>
                             </div>
                         </div>
