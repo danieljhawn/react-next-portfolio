@@ -22,7 +22,7 @@ function Portfolio() {
         </Head>
         <div className="container-fluid">
             <div className="row">
-                <div className=" mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
+                <div className="col-md-6 col-sm-12 col-xs-12 mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
                     <h2>
                         <p style={linkStyle} className="subhead">Projects</p>
                     </h2>
