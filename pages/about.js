@@ -39,8 +39,8 @@ function About() {
                             <div className="col-lg-4 col-md-6 col-sm-6 col-xs-8 ">
                                 <img className="img-fluid" src="/selfp.jpg" alt="pretentious self-portrait" />
                             </div>
-                            <div class="col">
-                                <p class="bodyText">
+                            <div className="col">
+                                <p className="bodyText">
                                     In 2019 I moved to Austin and entered the UT Full Stack Coding Bootcamp.
                                     My goal is to have a firm understanding of how to use HTML, CSS, and JavaScript.
                                     In the process I will be completing several projects demonstrating my abilities in these languages.
@@ -51,8 +51,8 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-12 col-xs-12 mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
+            <div className="row">
+                <div className="col-md-6 col-sm-12 col-xs-12 mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
                     <h3 style={subheadStyle}>
                         Links
                     </h3>
