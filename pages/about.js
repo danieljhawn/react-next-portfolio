@@ -20,6 +20,11 @@ const linkStyle = {
     fontStyle: 'normal',
 }
 
+const centerMe = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
+}
 
 function About() {
     return <Layout>
@@ -31,12 +36,12 @@ function About() {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-6 col-sm-12 col-xs-12 mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
-                    <h2>
+                    <h2 style={centerMe}>
                         <p style={subheadStyle} className="subhead">About Me</p>
                     </h2>
                     <div className="container-fluid">
                         <div className="row">
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-xs-8 ">
+                            <div style={centerMe} className="col-lg-4 col-md-6 col-sm-6 col-xs-8 ">
                                 <img className="img-fluid" src="/selfp.jpg" alt="pretentious self-portrait" />
                             </div>
                             <div className="col">

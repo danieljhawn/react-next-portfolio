@@ -29,15 +29,15 @@ const Header = () => (
         <div className="navbar-expand navbar-dark bg-dark text-white p-3">
             <div className="container col-6 align-items-center">
                 <div className="row align-items-center">
-                    <div className="col align-items-center">
+                    <div className="col text-center align-items-center">
                         <h1 style={nameStyle}>Daniel Hawn</h1>
                     </div>
                     <div className="col align-items-center">
-                        <div className="navbar-nav justify-content-end align-items-center">
+                        <div className="navbar-nav justify-content-center align-items-center">
                             <Link>
                                 <>
                                 <a className="nav-item nav-link active align-items-center" style={linkStyle} href="/about">About</a> |
-                                <a className="nav-item nav-link" style={linkStyle} href="/portfolio">Portfolio</a> |
+                                <a className="nav-item nav-link m-1" style={linkStyle} href="/portfolio">Portfolio</a> |
                                 <a className="nav-item nav-link" style={linkStyle} href="/contact">Contact</a>
                                 </>
                             </Link>

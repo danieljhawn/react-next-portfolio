@@ -6,7 +6,7 @@ const layoutStyle = {
   background: '-moz-linear-gradient(top, #C4C4C4 0%, #A2A2A2 51%, #000000 100%)',
   background: '-webkit-linear-gradient(top, #C4C4C4 0%, #A2A2A2 51%, #000000 100%)',
   background: 'linear-gradient(to bottom, #C4C4C4 0%, #A2A2A2 51%, #000000 100%)',
-  height: '100vh'
+  height: '150vh'
 };
 
 const mainFlex = {

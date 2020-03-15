@@ -13,6 +13,11 @@ const subheadStyle = {
     textTransform: 'uppercase',
 }
 
+const centerMe = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
+}
 
 function contact() {
     return <Layout>
@@ -24,9 +29,31 @@ function contact() {
     <div className="container-fluid">
         <div className="row">
             <div className="col-md-6 col-sm-12 col-xs-12 mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
-                <h2>
+                <h2 style={centerMe}>
                     <p style={subheadStyle} className="subhead">Contact</p>
                 </h2>
+                <div className="container-fluid">
+                        <div className="row">
+                            <div className="col-12">
+                                <form>
+                                    <div className="form-group">
+                                        <label for="Name">Name</label>
+                                        <input type="Name" class="form-control" placeholder="Name"/>
+                                        <div className="form-group">
+                                            <label for="exampleInputEmail1">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+                                        </div>
+                                        <div className="form-group">
+                                            <label for="Message">Message</label>
+                                            <textarea className="form-control" rows="3"></textarea>
+                                        </div>
+
+                                    </div>
+                                    <button type="submit" className="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
