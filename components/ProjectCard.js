@@ -1,5 +1,15 @@
 import React from 'react'
 
+const linkStyle = {
+    fontFamily: 'Arial, Helvetica, sans-serif',
+    fontSize: '15px',
+    letterSpacing:  '5px',
+    color: '#FFFFFF',
+    textDecoration: 'none',
+    fontStyle: 'normal',
+    textTransform: 'uppercase',
+}
+
 function projectCard(props) {
     return (
         <div>
@@ -9,7 +19,7 @@ function projectCard(props) {
                         <a href={props.url}>
                             <img src={props.img}
                                 className="img-responsive w-100" alt="..." /></a>
-                        <h5 className="h-30 m-3 text-white">{props.title}</h5>
+                        <h5 style={linkStyle} className="h-30 m-3 text-white">{props.title}</h5>
                     </div>
                 </div>
             </div>

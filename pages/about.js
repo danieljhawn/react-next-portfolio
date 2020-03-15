@@ -10,6 +10,7 @@ const subheadStyle = {
     textDecoration: 'none',
     fontStyle: 'normal',
     textTransform: 'uppercase',
+    textShadow: '0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, -18px 2px 2px rgba(122,16,59,0)'
 }
 
 const linkStyle = {
@@ -47,8 +48,7 @@ function About() {
                             <div className="col">
                                 <p className="bodyText">
                                     In 2019 I moved to Austin and entered the UT Full Stack Coding Bootcamp.
-                                    My goal is to have a firm understanding of how to use HTML, CSS, and JavaScript.
-                                    In the process I will be completing several projects demonstrating my abilities in these languages.
+                                    This page is a collection of some of the projects I've worked on in that time.
                                     You can find these projects in the <a style={linkStyle} href="/portfolio">Portfolio</a> section of my site.
                                 </p>
                             </div>
@@ -58,10 +58,15 @@ function About() {
             </div>
             <div className="row">
                 <div className="col-md-6 col-sm-12 col-xs-12 mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
-                    <h3 style={subheadStyle}>
-                        Links
-                    </h3>
-                    <h4><a style={linkStyle} href="https://github.com/danieljhawn">My Github Profile</a></h4>
+                    <div style={centerMe}>
+                        <h3 style={subheadStyle}>
+                            Links
+                        </h3>
+                    </div>
+                    <div className="col mx-auto" >
+                        <h4><a style={linkStyle} href="https://github.com/danieljhawn">Github</a></h4>
+                        <h4><a style={linkStyle} href="https://www.linkedin.com/in/daniel-hawn-bb866b72/">LinkedIn</a></h4>
+                    </div>
                 </div>
             </div>
         </div>

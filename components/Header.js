@@ -10,11 +10,12 @@ const nameStyle = {
     textDecoration: 'none',
     fontStyle: 'normal',
     textTransform: 'uppercase',
+    textShadow: '0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 2px 2px 2px rgba(122,16,59,0)'
 } 
 
 const linkStyle = {
     fontFamily: 'Arial, Helvetica, sans-serif',
-    // fontSize: '30px',
+    fontSize: '15px',
     letterSpacing:  '7px',
     wordSpacing: '2px',
     color: '#FFFFFF',
