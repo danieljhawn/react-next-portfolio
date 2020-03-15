@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Layout from '../components/MyLayout'
+import ProjectCard from '../components/ProjectCard'
 
 const subheadStyle = {
     fontFamily: 'Arial, Helvetica, sans-serif',
@@ -29,7 +30,9 @@ function Portfolio() {
                     <div className="container-fluid">
                         <div className="row">
 
-                            <div className="col">
+                        <ProjectCard url={"https://danieljhawn.github.io/dayPlanner/"} img={"./dayPlannerThumb.jpg"} title={"Day Planner"}/>
+
+                            {/* <div className="col">
                                 <div className="row">
                                     <div className="col p-0 position-relative bg-dark m-2 shadow">
                                         <a href="https://danieljhawn.github.io/dayPlanner/">
@@ -48,7 +51,7 @@ function Portfolio() {
                                         <h5 style={subheadStyle} className="h-30 m-3 text-white">Weather App</h5>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

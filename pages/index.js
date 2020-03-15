@@ -15,7 +15,7 @@ const Home = () => (
     <p className="yonge">This layout</p>
     <style jsx>{`
     .yonge {
-      color: red;
+      background: #7D7D7D
     }
     `}</style>
   </Layout>
