@@ -5,13 +5,18 @@ import ProjectCard from '../components/ProjectCard'
 
 const subheadStyle = {
     fontFamily: 'Arial, Helvetica, sans-serif',
-    // fontSize: '30px',
     letterSpacing:  '7px',
     wordSpacing: '2px',
     color: '#FFFFFF',
     textDecoration: 'none',
     fontStyle: 'normal',
     textTransform: 'uppercase',
+}
+
+const centerMe = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
 }
 
 function Portfolio() {
@@ -28,40 +33,22 @@ function Portfolio() {
                         <p style={subheadStyle} className="subhead">Projects</p>
                     </h2>
                     <div className="container-fluid">
-                        <div className="row">
-
-                        <ProjectCard url={"https://danieljhawn.github.io/dayPlanner/"} img={"./dayPlannerThumb.jpg"} title={"Day Planner"}/>
-
-                            {/* <div className="col">
-                                <div className="row">
-                                    <div className="col p-0 position-relative bg-dark m-2 shadow">
-                                        <a href="https://danieljhawn.github.io/dayPlanner/">
-                                            <img src="./dayPlannerThumb.jpg"
-                                                className="img-responsive w-100" alt="..." /></a>
-                                        <h5 style={subheadStyle} className="h-30 m-3 text-white">Day Planner</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="row">
-                                    <div className="col p-0 position-relative bg-dark m-2 shadow">
-                                        <a href="https://danieljhawn.github.io/dayPlanner/">
-                                            <img src="./weatherApp.jpg"
-                                                className="img-responsive w-100" alt="..." /></a>
-                                        <h5 style={subheadStyle} className="h-30 m-3 text-white">Weather App</h5>
-                                    </div>
-                                </div>
-                            </div> */}
+                        <div style={centerMe} className="row">
+                        <ProjectCard url={"https://danieljhawn.github.io/dayPlanner/"} img={"./dayPlannerThumb_300x300.jpg"} title={"Day Planner"}/>
+                        <ProjectCard url={"https://danieljhawn.github.io/weatherApp/"} img={"./weatherApp_300x300.jpg"} title={"Weather App"}/>
+                        <ProjectCard url={"https://danieljhawn.github.io/passwordGenerator/"} img={"./passGen_300x300.jpg"} title={"Password Generator"}/>
+                        <ProjectCard url={"https://project-2-spotify.herokuapp.com/"} img={"./spotifyTracker_300x300.jpg"} title={"Spotify Genre Map"}/>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="fixed-bottom bg-dark text-white text-center pt-6">
-            <p class="pt-6">copyright &copy; 2020 Daniel Hawn</p>
-        </div>
     </Layout>
 }
 
 export default Portfolio
+
+
+{/* <div style="display:flex;justify-content:center;align-items:center;">
+  <div></div>
+</div> */}
