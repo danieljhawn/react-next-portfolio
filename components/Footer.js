@@ -2,7 +2,7 @@ import React from 'react'
 
 const linkStyle = {
     fontFamily: 'Arial, Helvetica, sans-serif',
-    // fontSize: '30px',
+    fontSize: '10px',
     letterSpacing:  '7px',
     wordSpacing: '2px',
     color: '#FFFFFF',
