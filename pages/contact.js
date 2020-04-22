@@ -16,7 +16,11 @@ const subheadStyle = {
 const centerMe = {
     display: 'flex',
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    textDecoration: 'none',
+    textTransform: 'uppercase',
+    color: '#ffffff',
+    textShadow: '2px 2px 4px #000000'
 }
 
 function contact() {
@@ -34,8 +38,8 @@ function contact() {
                 </h2>
                 <div className="container-fluid">
                         <div className="row">
-                            <div className="col-12">
-                                <form>
+                            <div className="col-12" style={centerMe}>
+                                {/* <form>
                                     <div className="form-group">
                                         <label for="Name">Name</label>
                                         <input type="Name" class="form-control" placeholder="Name"/>
@@ -50,7 +54,10 @@ function contact() {
 
                                     </div>
                                     <button type="submit" className="btn btn-primary">Submit</button>
-                                </form>
+                                </form> */}
+                                <a className="col" style={centerMe} href="mailto:danieljhawn@gmail.com">Email Me</a><br />
+                                <a className="col" style={centerMe} href="https://www.linkedin.com/in/daniel-hawn-bb866b72/">LinkedIn</a><br />
+                                <a className="col" style={centerMe} href="https://github.com/danieljhawn">Github</a><br />
                             </div>
                         </div>
                     </div>

@@ -39,6 +39,7 @@ function Portfolio() {
                         <ProjectCard url={"https://danieljhawn.github.io/weatherApp/"} img={"./weatherApp_300x300.jpg"} title={"Weather App"}/>
                         <ProjectCard url={"https://danieljhawn.github.io/passwordGenerator/"} img={"./passGen_300x300.jpg"} title={"Password Generator"}/>
                         <ProjectCard url={"https://project-2-spotify.herokuapp.com/"} img={"./spotifyTracker_300x300.jpg"} title={"Spotify Genre Map"}/>
+                        <ProjectCard url={"https://project-nighthawk.now.sh/"} img={"./nightHawk_300x300.jpg"} title={"Project Nighthawk"}/>
                         </div>
                     </div>
                 </div>
