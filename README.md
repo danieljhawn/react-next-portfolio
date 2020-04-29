@@ -1,4 +1,3 @@
-
 ## Portfolio
 
 This site uses React, and more specifically, Next.js
