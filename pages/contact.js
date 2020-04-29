@@ -23,6 +23,12 @@ const centerMe = {
   textShadow: "2px 2px 4px #000000",
 };
 
+const roundRect = {
+    webkitBorderRadius: "18px",
+    mozBorderRadius: "18px",
+    borderRadius: "18px",
+  };
+
 function contact() {
   return (
     <Layout>
@@ -38,7 +44,7 @@ function contact() {
       </Head>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-6 col-sm-12 col-xs-12 mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
+          <div style={roundRect} className="col-md-6 col-sm-12 col-xs-12 mx-auto p-3 m-2 bg-secondary text-white shadow-lg">
             <h2 style={centerMe}>
               <p style={subheadStyle} className="subhead">
                 Contact
