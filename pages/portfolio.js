@@ -49,31 +49,35 @@ function Portfolio() {
               </p>
             </h2>
             <div className="container-fluid">
-              <div style={centerMe} className="row">
+              <div className="row">
                 <ProjectCard
                   url={"https://danieljhawn.github.io/dayPlanner/"}
                   img={"./dayPlannerThumb_300x300.jpg"}
                   title={"Day Planner"}
+                  description={"Uses Moment.js and localStorage to create an hourly day planner"}
                 />
-                <ProjectCard
+                {/* <ProjectCard
                   url={"https://danieljhawn.github.io/weatherApp/"}
                   img={"./weatherApp_300x300.jpg"}
                   title={"Weather App"}
-                />
+                /> */}
                 <ProjectCard
                   url={"https://danieljhawn.github.io/passwordGenerator/"}
                   img={"./passGen_300x300.jpg"}
                   title={"Password Generator"}
+                  description={"Plain Javascript app that generates a random password based on prompts to the user"}
                 />
                 <ProjectCard
                   url={"https://project-2-spotify.herokuapp.com/"}
                   img={"./spotifyTracker_300x300.jpg"}
                   title={"Spotify Genre Map"}
+                  description={"Scrapes data from Spotify to create listener map"}
                 />
                 <ProjectCard
                   url={"https://project-nighthawk.now.sh/"}
                   img={"./nightHawk_300x300.jpg"}
                   title={"Project Nighthawk"}
+                  description={"React app that creates estimates for print jobs"}
                 />
               </div>
             </div>

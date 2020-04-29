@@ -18,7 +18,7 @@ const linkStyle = {
   fontFamily: "Arial, Helvetica, sans-serif",
   wordSpacing: "2px",
   color: "#FFFFFF",
-  textDecoration: "none",
+  textDecoration: "underline solid",
   fontStyle: "normal",
 };
 
@@ -65,6 +65,7 @@ function About() {
                     className="img-fluid"
                     src="/selfp.jpg"
                     alt="pretentious self-portrait"
+                    style={roundRect}
                   />
                 </div>
                 <div className="col">
