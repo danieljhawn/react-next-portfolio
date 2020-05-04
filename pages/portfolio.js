@@ -49,7 +49,7 @@ function Portfolio() {
               </p>
             </h2>
             <div className="container-fluid">
-              <div className="row">
+              <div className="col">
                 <ProjectCard
                   url={"https://danieljhawn.github.io/dayPlanner/"}
                   img={"./dayPlannerThumb_300x300.jpg"}
