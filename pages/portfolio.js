@@ -21,6 +21,10 @@ const centerMe = {
   alignItems: "center",
 };
 
+const maxHeight = {
+  height: "100px"
+}
+
 const roundRect = {
     WebkitBorderRadius: "18px",
     MozBorderRadius: "18px",
@@ -55,6 +59,7 @@ function Portfolio() {
                   img={"./dayPlannerThumb_300x300.jpg"}
                   title={"Day Planner"}
                   description={"Uses Moment.js and localStorage to create an hourly day planner"}
+                  style={maxHeight}
                 />
                 {/* <ProjectCard
                   url={"https://danieljhawn.github.io/weatherApp/"}

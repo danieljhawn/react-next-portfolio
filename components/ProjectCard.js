@@ -14,12 +14,22 @@ const roundRect = {
   WebkitBorderRadius: "18px",
   MozBorderRadius: "18px",
   borderRadius: "18px",
-};
+  };
+
+const mainDiv = {
+  WebkitBorderRadius: "18px",
+  MozBorderRadius: "18px",
+  borderRadius: "18px",
+  width: "75%",
+  position: "relative",
+  margin: "auto"
+
+  };
 
 function projectCard(props) {
   return (
     <>
-      <div style={roundRect}>
+      <div style={mainDiv}>
         <div className="col">
           <div className="row">
             <div
