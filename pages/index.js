@@ -46,10 +46,18 @@ const Home = () => (
               </div>
               <div className="col">
                 <p className="bodyText">
-                  In 2019 I moved to Austin and entered the UT Full Stack Coding Bootcamp.
-                  This page is a collection of some of the projects I've worked on in that time.
-                                    You can find these projects in the <a style={linkStyle} href="/portfolio">Portfolio</a> section of my site.
-                                </p>
+                  This site is a collection of the web development projects that I've completed.<hr></hr>
+                  Here's a list of some of the technologies used.
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS and Sass</li>
+                    <li>JavaScript</li>
+                    <li>Node.js</li>
+                    <li>React and Next.js</li>
+                    <li>jQuery</li>
+                  </ul><hr></hr>
+                  In addition, I have over ten years of experience using the Adobe Creative Suite!
+                </p>
               </div>
             </div>
           </div>
