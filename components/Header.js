@@ -35,33 +35,34 @@ const Header = () => (
           </div>
           <div className="col align-items-center">
             <div className="navbar-nav justify-content-center align-items-center">
-              <Link>
                 <>
+                <Link href="/about">
                   <a
                     className="nav-item nav-link active align-items-center"
                     style={linkStyle}
                     href="/about"
                   >
                     About
-                  </a>{" "}
+                  </a></Link>{" "}
                   |
+                  <Link href="/portfolio">
                   <a
                     className="nav-item nav-link m-1"
                     style={linkStyle}
                     href="/portfolio"
                   >
                     Portfolio
-                  </a>{" "}
+                  </a></Link>{" "}
                   |
+                  <Link href="/contact">
                   <a
                     className="nav-item nav-link"
                     style={linkStyle}
                     href="/contact"
                   >
                     Contact
-                  </a>
+                  </a></Link>
                 </>
-              </Link>
             </div>
           </div>
         </div>
