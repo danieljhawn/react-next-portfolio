@@ -24,7 +24,7 @@ const centerMe = {
 };
 
 const roundRect = {
-    webkitBorderRadius: "18px",
+    WebkitBorderRadius: "18px",
     mozBorderRadius: "18px",
     borderRadius: "18px",
   };
