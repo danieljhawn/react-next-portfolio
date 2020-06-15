@@ -36,13 +36,13 @@ const Header = () => (
           <div className="col align-items-center">
             <div className="navbar-nav justify-content-center align-items-center">
                 <>
-                <Link href="/about">
+                <Link href="/">
                   <a
                     className="nav-item nav-link active align-items-center"
                     style={linkStyle}
-                    href="/about"
+                    href="/"
                   >
-                    About
+                    Home
                   </a></Link>{" "}
                   |
                   <Link href="/portfolio">
